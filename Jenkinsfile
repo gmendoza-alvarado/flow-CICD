@@ -15,6 +15,7 @@ pipeline {
             }
         }
 
+
         // Etapa 2: Build (compilación)
         stage('Build') {
             steps {
