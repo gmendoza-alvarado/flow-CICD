@@ -14,7 +14,7 @@ pipeline {
                 git 'https://github.com/gmendoza-alvarado/flow-CICD.git'  // Clona el repositorio
             }
         }
- 
+
         // Etapa 2: Build (compilación)
         stage('Build') {
             steps {
