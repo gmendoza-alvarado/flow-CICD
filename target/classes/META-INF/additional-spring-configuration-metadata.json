@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "api.uri.basePath",
+    "type": "java.lang.String",
+    "description": "A description for 'api.uri.basePath'"
+  },
+  {
+    "name": "api.uri.mapping.flow.retrieve",
+    "type": "java.lang.String",
+    "description": "A description for 'api.uri.mapping.flow.retrieve'"
+  },
+  {
+    "name": "spring.datasource.driverclassname",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.driverclassname'"
+  }
+]}

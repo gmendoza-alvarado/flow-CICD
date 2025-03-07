@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.microservice.appflow.AppflowApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.245 s -- in com.microservice.appflow.AppflowApplicationTests
