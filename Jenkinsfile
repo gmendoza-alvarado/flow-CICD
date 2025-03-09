@@ -1,8 +1,8 @@
 pipeline {
     agent any  // Ejecutar en cualquier agente disponible
-
+   
     environment {
-        SONARQUBE_NAME = 'SonarQubeCICD'  // Nombre del servidor SonarQube en Jenkins
+        SONARQUBE_NAME = 'SonarQubeCICD'   // Nombre del servidor SonarQube en Jenkins
     } 
     
  
