@@ -14,12 +14,7 @@ pipeline {
             }
         }
 
-        // 2️⃣ Compilar el proyecto con Maven
-        stage('Build') {
-            steps {
-                sh 'mvn -B clean package -DskipTests'
-            }
-        }
+     
 
         // 3️⃣ Análisis de calidad de código con SonarQube
         stage('SonarQube Analysis') {
