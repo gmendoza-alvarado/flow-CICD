@@ -17,7 +17,7 @@ pipeline {
         // 2️⃣ Compilar el proyecto con Maven
         stage('Build') {
             steps {
-                sh 'mvn clean package -DskipTests'
+                sh 'mvn -B clean package -DskipTests'
             }
         }
 
