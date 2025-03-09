@@ -4,6 +4,7 @@ pipeline {
     environment {
         SONARQUBE_NAME = 'SonarQubeCICD'  // Nombre del servidor SonarQube en Jenkins
     } 
+    
  
     stages {
         // 1️⃣ Descargar código desde GitHub
